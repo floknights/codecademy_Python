@@ -5,3 +5,5 @@ threads.py =  practicing loops and string methods
 tarot.py = practicing loops and dictionaries  
 scrabble.py = practicing functions and dictionaries  
 happy_cafe.py = practicing functions and classes  
+  
+nile.py = practicing function arguments  
