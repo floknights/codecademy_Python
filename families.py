@@ -12,6 +12,8 @@ def print_instrument_families():
       print("Type Error")
     except NameError:
       print("Name Error")
+    except KeyError:
+      print("Key Error")
     except Exception:
       print("Other Error")
 
