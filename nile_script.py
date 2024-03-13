@@ -1,5 +1,5 @@
-from nile import get_distance, format_price, SHIPPING_PRICES
-from test import test_function
+from nile_nile import get_distance, format_price, SHIPPING_PRICES
+from nile_test import test_function
 
 def calculate_shipping_cost(from_coords, to_coords, shipping_type = 'Overnight'):
   from_lat, from_long = from_coords
