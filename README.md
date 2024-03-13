@@ -8,5 +8,5 @@ happy_cafe.py = practicing functions and classes
   
 nile.py = practicing function arguments  
 families.py = fixed bugs in existing code (dictionaries, string methods, exception handling)  
-exits.py = practicing unit tests  
+exits.py = practicing if-else statements and unit tests  
 surfshop.py = practicing classes, methods and unit tests  
