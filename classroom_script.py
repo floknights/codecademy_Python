@@ -1,4 +1,4 @@
-from roster import student_roster
+from classroom_roster import student_roster
 from classroom_organizer import ClassroomOrganizer
 import itertools
 
