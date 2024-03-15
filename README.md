@@ -11,3 +11,4 @@ families.py = fixed bugs in existing code (dictionaries, string methods, excepti
 exits.py = practicing if-else statements and unit tests  
 surfshop.py = practicing classes, methods and unit tests  
 classroom.py = practicing classes, iterables and iterators  
+courses.py = practicing generators  
