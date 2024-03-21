@@ -12,7 +12,12 @@ def read_guestlist(file_name = "guest_list.txt"):
     guests[name] = age
     yield name
 
-
+#WIP BELOW - NOT WORKING
+def add_guest(guest_data):
+  name = guest_data[0]
+  age = int(guest_data[1])
+  guests.append[name] = age
+  yield name
 
 guestlist_generator = read_guestlist()
 
@@ -26,25 +31,12 @@ for i in range(10):
     print("No more guests")
     break
 
-#for i in guestlist_generator:
-#  if i == 11:
-#    i = guestlist_generator.send(read_guestlist("Jane,35"))
-#    print(i)
+#WIP BELOW - NOT WORKING
+new_guest = add_guest("Jane,35")
+print((guestlist_generator.send(new_guest)))
+print(next(guestlist_generator))
 
-#print(next(guestlist_generator))
-#print(next(guestlist_generator))
-#print(next(guestlist_generator))
-#print(next(guestlist_generator))
-#print(next(guestlist_generator))
-
-#BELOW CODE DOESN'T RETURN EXPECTED VALUE
-
-new_guest = "Jane,35"
-returned_value = guestlist_generator.send(new_guest)
-print(returned_value)
-
-#print(next(guestlist_generator))
-
+#WORKS FINE BELOW
 #try:
 #    while True:
 #        guest = next(guestlist_generator)
