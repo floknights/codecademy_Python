@@ -1,6 +1,7 @@
 guests = {}
 def read_guestlist(file_name = "guest_list.txt"):
   text_file = open(file_name,'r')
+  #CHANGE TO A FOR LOOP HERE?
   while True:
     line_data = text_file.readline().strip().split(",")
     if len(line_data) < 2:
