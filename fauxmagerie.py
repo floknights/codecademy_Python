@@ -1,4 +1,4 @@
-#variable
+#string
 company_name = "La Fauxmagerie"
 #tuple
 company_location = (51.52354, -0.069374)
