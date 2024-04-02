@@ -63,3 +63,27 @@ for key, val in song_data.items():
             if key not in user_liked_song and key not in user_disliked_song:
                 recommended_songs[key] = val
 #print(recommended_songs)
+
+
+user_song_history = {'Retro Words': ['pop', 'warm', 'happy', 'electronic', 'synth'],
+                     'Stomping Cue': ['country', 'fiddle', 'party'],
+                     'Back To Art': ['pop', 'sad', 'emotional', 'relationship'],
+                     'Double Lights': ['electronic', 'chill', 'relaxing', 'piano', 'synth']}
+
+friend_song_history = {'Lowkey Space': ['electronic', 'dance', 'synth', 'upbeat'],
+                     'Blinding Era': ['rap', 'intense', 'moving', 'fast'],
+                     'Wait For Limit': ['rap', 'upbeat', 'romance', 'relationship'],
+                     'Double Lights': ['electronic', 'chill', 'relaxing', 'piano', 'synth']}
+
+user_tags = set()
+for key, val in user_song_history.items():
+    for tag in val:
+        user_tags.update(set(val))
+
+friend_tags = set()
+for key, val in friend_song_history.items():
+  for tag in val:
+    friend_tags.update(set(val))
+
+unique_tags = user_tags.symmetric_difference(friend_tags)
+#print(unique_tags)
