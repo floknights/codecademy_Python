@@ -13,4 +13,4 @@ surfshop.py = practicing classes, methods and unit tests
 classroom.py = practicing classes, iterables and iterators  
 courses.py = practicing generators & generator methods  
 event_coordinator.py = [WIP] practicing generators & generator methods  
-music_app.py = practicing sets, union, intersection & difference  
+music_app.py = practicing sets & set methods  
