@@ -1,5 +1,4 @@
-from collections import deque
-from collections import namedtuple
+from collections import deque, namedtuple
 
 overstock_items = [['shirt_103985', 15.99],
                     ['pants_906841', 19.99],
