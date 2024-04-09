@@ -15,4 +15,5 @@ courses.py = practicing generators & generator methods
 event_coordinator.py = [WIP] practicing generators & generator methods  
 music_app.py = practicing sets & set methods  
 fauxmagerie.py = practicing containers (strings, tuples, lists, dictionaries)  
-clothes_app.py = practicing collections (containers & wrappers)  
+clothes_app.py = practicing collections (advanced containers & container wrappers)  
+clothes_app_review.py = practicing collections (deque objects & named tuples)  
