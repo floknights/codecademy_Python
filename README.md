@@ -18,3 +18,4 @@ fauxmagerie.py = practicing containers (strings, tuples, lists, dictionaries)
 clothes_app.py = practicing collections (advanced containers & container wrappers)  
 clothes_app_review.py = practicing collections (deque objects & named tuples)  
 robot_race.py = practicing collections  
+poem.py = practicing class-based context managers  
