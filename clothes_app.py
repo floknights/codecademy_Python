@@ -151,5 +151,21 @@ class OrderProcessingDict(UserDict):
       del self.data[item]
 
 process_dict = OrderProcessingDict(data)
+
 process_dict.clean_orders()
 print(process_dict)
+
+
+from collections import UserList
+data = [4, 6, 8, 9, 5, 7, 3, 1, 0]
+
+class ListSorter(UserList):
+  def append(self, item):
+    self.data.append(item)
+    self.data.sort()
+
+sorted_list = ListSorter(data)
+print(sorted_list)
+
+sorted_list.append(2)
+print(sorted_list)
