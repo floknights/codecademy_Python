@@ -20,3 +20,5 @@ clothes_app_review.py = practicing collections (deque objects & named tuples)
 robot_race.py = practicing collections  
 poem_file.py = practicing context managers (class-based, contextlib, error handling, nested context managers)  
 greetings.py = practicing context managers  
+
+nodes.py = practicing node implementation  
