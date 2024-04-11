@@ -95,3 +95,15 @@ class DoublyLinkedList:
 
     if node_to_remove == None:
       return None
+
+    if node_to_remove == self.head_node:
+      self.remove_head()
+    elif node_to_remove == self.tail_node:
+      self.remove_tail()
+    else:
+      next_node = node_to_remove.get_next_node()
+      prev_node = node_to_remove.get_prev_node()
+      next_node.set_prev_node(prev_node)
+      prev_node.set_next_node(next_node)
+
+    return node_to_remove
