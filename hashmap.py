@@ -14,3 +14,7 @@ class HashMap:
   def assign(self, key, value):
     array_index = self.compressor(self.hash(key))
     self.array[array_index] = value
+
+  def retrieve(self, key):
+    array_index = self.compressor(self.hash(key))
+    return self.array[array_index]
