@@ -22,6 +22,7 @@ poem_file.py = practicing context managers (class-based, contextlib, error handl
 greetings.py = practicing context managers  
 
 nodes.py = practicing node implementation  
-linked_list = practicing data structures (linked list)  
+linked_list.py = practicing data structures (linked list)  
 subway.py = practicing data structures (doubly linked list)  
 queue.py = practicing data structures (queue)  
+stack.py = practicing data structures (stack)  
