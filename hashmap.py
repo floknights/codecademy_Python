@@ -23,7 +23,13 @@ class HashMap:
 
   def retrieve(self, key):
     array_index = self.compressor(self.hash(key))
-    return self.array[array_index]
+    possible_return_value = self.array[array_index]
+    if possible_return_value == None:
+      return None
+    elif possible_return_value[0] == key:
+      return possible_return_value[1]
+    else:
+      pass
 
 hash_map = HashMap(20)
 
