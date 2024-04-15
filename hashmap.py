@@ -13,7 +13,13 @@ class HashMap:
 
   def assign(self, key, value):
     array_index = self.compressor(self.hash(key))
-    self.array[array_index] = value
+    current_array_value = self.array[array_index]
+    if current_array_value == None:
+      self.array[array_index] = [key, value]
+    elif key == current_array_value[0]:
+      self.array[array_index] = value
+    else:
+      pass
 
   def retrieve(self, key):
     array_index = self.compressor(self.hash(key))
