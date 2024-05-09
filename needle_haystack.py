@@ -18,3 +18,14 @@ def pattern_search(text, pattern):
 text = "HAYHAYNEEDLEHAYHAYHAYNEEDLEHAYHAYHAYHAYNEEDLE"
 pattern = "NEEDLE"
 pattern_search(text, pattern)
+
+text2 = "SOMEMORERANDOMWORDSTOpatternSEARCHTHROUGH"
+pattern2 = "pattern"
+text3 = "This   still      works with    spaces"
+pattern3 = "works"
+text4 = "722615457824612704202682179992552072047396"
+pattern4 = "42"
+
+pattern_search(text2, pattern2)
+pattern_search(text3, pattern3)
+pattern_search(text4, pattern4)
