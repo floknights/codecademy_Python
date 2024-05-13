@@ -1,27 +1,27 @@
-from random import randrange
-
+from random import randrange, shuffle 
 def quicksort(list, start, end):
   if start >= end:
-    return list
+    return
 
-  pivot_idx = randrange(start, end)
+  pivot_idx = randrange(start, end + 1)
   pivot_element = list[pivot_idx]
+
   list[end], list[pivot_idx] = list[pivot_idx], list[end]
 
-  lesser_than_pointer = start
+  less_than_pointer = start
   
-  for idx in range(start, end):
-    if list[idx] < pivot_element:
-      list[lesser_than_pointer], list[idx] = list[idx], list[lesser_than_pointer]
-      lesser_than_pointer += 1
+  for i in range(start, end):
+    if list[i] < pivot_element:
+      list[i], list[less_than_pointer] = list[less_than_pointer], list[i]
+      less_than_pointer += 1
 
-  list[end], list[lesser_than_pointer] = list[lesser_than_pointer], list[end]
+  list[end], list[less_than_pointer] = list[less_than_pointer], list[end]
+  
+  quicksort(list, start, less_than_pointer - 1)
+  quicksort(list, less_than_pointer + 1, end)
+  
+unsorted_list = [3,7,12,24,36,42]
+shuffle(unsorted_list)
+print(unsorted_list)
 
-  print(list[start])
-  start += 1
-  return quicksort(list, start, end)
-
-my_list = [42, 103, 22]
-print("BEFORE: ", my_list)
-sorted_list = quicksort(my_list, 0, len(my_list) - 1)
-print("AFTER: ", sorted_list)
+quicksort(unsorted_list, 0, len(unsorted_list) - 1)
