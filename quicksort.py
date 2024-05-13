@@ -1,4 +1,5 @@
-from random import randrange, shuffle 
+from random import randrange, shuffle
+
 def quicksort(list, start, end):
   if start >= end:
     return
