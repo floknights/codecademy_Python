@@ -18,6 +18,11 @@ class TreeNode:
       if child != child_node
     ]
 
+  def traverse(self):
+    print(self.value)
+    for node in self.children:
+      print(node.value)
+
 root = TreeNode("I am Root")
 child = TreeNode("a wee sapling")
 bad_seed = TreeNode("Root Rot!")
@@ -26,3 +31,5 @@ root.add_child(child)
 root.add_child(bad_seed)
 
 root.remove_child(bad_seed)
+
+root.traverse()
