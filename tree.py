@@ -18,10 +18,13 @@ class TreeNode:
       if child != child_node
     ]
 
-  def traverse(self):
-    print(self.value)
-    for node in self.children:
-      print(node.value)
+   def traverse(self):
+    print("Traversing...")
+    nodes_to_visit = [self]
+    while len(nodes_to_visit) > 0:
+      current_node = nodes_to_visit.pop()
+      print(current_node.value)
+      nodes_to_visit += current_node.children
 
 root = TreeNode("I am Root")
 child = TreeNode("a wee sapling")
@@ -31,5 +34,16 @@ root.add_child(child)
 root.add_child(bad_seed)
 
 root.remove_child(bad_seed)
+
+root.traverse()
+
+root = TreeNode("CEO")
+first_child = TreeNode("Vice-President")
+second_child = TreeNode("Head of Marketing")
+third_child = TreeNode("Marketing Assistant")
+
+root.add_child(first_child)
+root.add_child(second_child)
+second_child.add_child(third_child)
 
 root.traverse()
