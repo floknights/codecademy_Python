@@ -50,4 +50,5 @@ quicksort.py = practicing algorithms & data structures (quicksort, recursion & p
 linear_search.py = practicing algorithms & data structures (linear search)  
 duplicate_search.py = practicing algorithms & data structures (linear search)  
 maximum_search.py = practicing algorithms & data structures (linear search)  
-tree.py = practicing algorithms & data structures (tree implementation, classes, list comprehension)  
+tree.py = practicing algorithms & data structures (tree implementation, list comprehension)  
+wilderness_escape.py = practicing algorithms & data structures (tree implementation)  
