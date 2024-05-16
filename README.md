@@ -61,4 +61,4 @@ bst.py = practicing algorithms & data structures (binary search, trees, recursio
 bst_dfs.py = practicing algorithms & data structures (depth-first search, binary search, trees, recursion)  
 max_heap.py = practicing algorithms & data structures (max-heap, heaps)  
 heapsort.py = practicing algorithms & data structures (heapsort, heaps)  
-railway.py = practicing algorithms & data structures (graphs, recursion)  
+railway.py = practicing data structures (graphs, recursion)  
