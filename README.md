@@ -62,3 +62,4 @@ bst_dfs.py = practicing algorithms & data structures (depth-first search, binary
 max_heap.py = practicing algorithms & data structures (max-heap, heaps)  
 heapsort.py = practicing algorithms & data structures (heapsort, heaps)  
 railway.py = practicing data structures (graphs, recursion)  
+dfs_graph_search.py = practicing algorithms & data structures (graphs, depth-first search)  
