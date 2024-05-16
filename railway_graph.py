@@ -27,6 +27,6 @@ class Graph:
         next_vertices = vertex.get_edges()
         
         next_vertices = [vertex for vertex in next_vertices if vertex not in seen]
-        start.extend(next_vertices)
+        start += next_vertices
         
     return False
