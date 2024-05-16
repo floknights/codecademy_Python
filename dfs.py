@@ -1,4 +1,4 @@
-from TreeNode import TreeNode, sample_root_node, print_path, print_tree
+from dfs_tree_node import TreeNode, sample_root_node, print_path, print_tree
 
 print_tree(sample_root_node)
 
