@@ -1,0 +1,21 @@
+from railway_graph import Graph
+from railway_vertex import Vertex
+
+railway = Graph()
+
+callan = Vertex('callan')
+peel = Vertex('peel')
+harwick = Vertex('harwick')
+
+railway.add_vertex(callan)
+railway.add_vertex(peel)
+railway.add_vertex(harwick)
+
+
+railway.add_edge(callan, peel, 12)
+railway.add_edge(harwick, callan, 7)
+railway.add_edge(peel, harwick)
+
+print(callan.edges)
+print(harwick.edges)
+print(peel.edges)
