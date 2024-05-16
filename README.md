@@ -59,3 +59,4 @@ rbs_2.py = practicing algortithms & data structures (binary search, recursion, p
 ibs.py = practicing algortithms & data structures (binary search, pointers)  
 bst.py = practicing algorithms & data structure (binary search, trees, recursion)  
 bst_dfs.py = practicing algorithms & data structure (depth-first search, binary search, trees, recursion)  
+max_heap.py = practicing algorithms & data structure (max heap, heaps)  
