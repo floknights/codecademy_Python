@@ -66,3 +66,4 @@ dfs_graph_search.py = practicing algorithms & data structures (graphs, depth-fir
 bfs_graph_search.py = practicing algorithms & data structures (graphs, breadth-first search, queues)  
 skyroute.py = [WIP] = practicing algorithms & data structures (graphs, depth-first search, breadth-first search)  
 dijkstras.py = practicing algorithms & data structures (graphs, breadth-first search, min-heap, heaps)  
+tsp.py = practicing algorithms & data structures (graphs, breadth-first search)  
