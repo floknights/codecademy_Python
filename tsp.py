@@ -7,15 +7,18 @@ def print_graph(graph):
   for vertex in graph.graph_dict:
     print("")
     print(vertex + " connected to")
-    vertex_neighbors = graph.graph_dict[vertex].edges
-    if len(vertex_neighbors) == 0:
+    vertex_neighbours = graph.graph_dict[vertex].edges
+    
+    if len(vertex_neighbours) == 0:
       print("No edges!")
-    for adjacent_vertex in vertex_neighbors:
+      
+    for adjacent_vertex in vertex_neighbours:
       print("=> " + adjacent_vertex)
 
 def build_tsp_graph(directed):
   g = Graph(directed)
   vertices = []
+  
   for val in ['a', 'b', 'c', 'd']:
     vertex = Vertex(val)
     vertices.append(vertex)
@@ -39,6 +42,7 @@ def visited_all_nodes(visited_vertices):
   for vertex in visited_vertices:
     if visited_vertices[vertex] == "unvisited":
       return False
+      
   return True
 
 def travelling_salesperson(graph):
@@ -61,6 +65,7 @@ def travelling_salesperson(graph):
       while not found_next_vertex:
         if current_vertex_edge_weights is None:
           break
+          
         next_vertex = min(current_vertex_edge_weights, key=current_vertex_edge_weights.get)
 
         if visited_vertices[next_vertex] == "visited":
