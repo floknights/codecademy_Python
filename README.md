@@ -71,3 +71,4 @@ manhattan.py = practicing algorithms & data structures (a star, graphs, min-heap
 euclidean.py = practicing algorithms & data structures (a star, graphs, min-heap, heaps, euclidean heuristic)  
 
 logic_gates.py = practicing computer architecture (logic gates)  
+adder_circuit.py = practicing computer architecture (logic gates, ALU)  
