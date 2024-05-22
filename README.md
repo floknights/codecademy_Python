@@ -69,3 +69,5 @@ dijkstras.py = practicing algorithms & data structures (graphs, breadth-first se
 tsp.py = practicing algorithms & data structures (graphs, breadth-first search, min-heap, heaps)  
 manhattan.py = practicing algorithms & data structures (a star, graphs, min-heap, heaps, manhattan heuristic)  
 euclidean.py = practicing algorithms & data structures (a star, graphs, min-heap, heaps, euclidean heuristic)  
+
+logic_gates.py = practicing computer architecture (logic gates)  
