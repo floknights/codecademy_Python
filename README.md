@@ -75,4 +75,4 @@ adder_circuit.py = practicing computer architecture (logic gates, ALU (arithmeti
 calculator_cpu.py = practicing computer architecture (ISA (instruction set architectures)  
 
 odd_or_even.py = practicing functional programming (lambda functions)  
-lambdas.py = practicing functional programming (lambda functions)  
+lambdas.py = practicing functional programming (lambda functions, mappinng functions)  
