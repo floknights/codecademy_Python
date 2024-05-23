@@ -73,3 +73,5 @@ euclidean.py = practicing algorithms & data structures (a star, graphs, min-heap
 logic_gates.py = practicing computer architecture (logic gates)  
 adder_circuit.py = practicing computer architecture (logic gates, ALU (arithmetic logic unit)  
 calculator_cpu.py = practicing computer architecture (ISA (instruction set architectures)  
+
+odd_or_even.py = practicing functional programming (lambda functions)  
