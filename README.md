@@ -80,3 +80,4 @@ steakhouse.py = practicing functional programming (lambda functions, reduce func
 fruits.py = practicing functional programming (lambda functions, mapping functions, reduce functions)  
 inventory.py = practicing functional programming (lambda functions, mapping functions, reduce functions)  
 trees.py = practicing functional programming (lambda functions, mapping functions, reduce functions, importing csv files)  
+cities.py = practicing functional programming (lambda functions  
