@@ -79,3 +79,4 @@ lambdas.py = practicing functional programming (lambda functions, mapping functi
 steakhouse.py = practicing functional programming (lambda functions, reduce function)  
 fruits.py = practicing functional programming (lambda functions, mapping functions, reduce function)  
 inventory.py = practicing functional programming (lambda functions, mapping functions, reduce function)  
+trees.py = practicing functional programming (lambda functions, mapping functions, importing csv files)  
