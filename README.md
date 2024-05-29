@@ -75,9 +75,9 @@ adder_circuit.py = practicing computer architecture (logic gates, ALU (arithmeti
 calculator_cpu.py = practicing computer architecture (ISA (instruction set architectures)  
 
 odd_or_even.py = practicing functional programming (lambda functions)  
-lambdas.py = practicing functional programming (lambda functions, mapping functions)  
-steakhouse.py = practicing functional programming (lambda functions, reduce function)  
+lambdas.py = practicing functional programming (lambda functions, mapping functions, filter functions, tuples)  
+steakhouse.py = practicing functional programming (lambda functions, reduce function, named tuples)  
 fruits.py = practicing functional programming (lambda functions, mapping functions, reduce functions)  
 inventory.py = practicing functional programming (lambda functions, mapping functions, reduce functions)  
-trees.py = practicing functional programming (lambda functions, mapping functions, reduce functions, importing csv files)  
-cities.py = practicing functional programming (lambda functions, mapping functions, reduce functions, processing JSON data)  
+trees.py = practicing functional programming (lambda functions, mapping functions, reduce functions, filter functions, named tuples, tuples, importing csv files)  
+cities.py = practicing functional programming (lambda functions, mapping functions, reduce functions, filter functions, named tuples, tuples, processing JSON data)  
