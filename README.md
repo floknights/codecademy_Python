@@ -85,3 +85,4 @@ cities.py = practicing functional programming (lambda functions, mapping functio
 titanic.py = practicing database operations (querying SQLite databases)  
 hotel_booking.py = practicing database operations (analysing SQLite databases)  
 threading.py = practicing concurrent programming (threads)  
+asyncio.py = practicing concurrent programming (threads, asyncio module)  
