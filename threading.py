@@ -6,7 +6,6 @@ def greeting_with_sleep(string):
   time.sleep(2)
   print(string + " says hello!")
 
-
 def main_threading():
   s = time.perf_counter()
   threads = []
