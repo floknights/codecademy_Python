@@ -90,3 +90,4 @@ multiprocessing.py = practicing concurrent programming (threading, multiprocessi
 concurrent.py = practicing concurrent programming (threading, sequential programming, asynchronous programming, multiprocessing)  
 
 deque.py = practicing double-ended queues (deques)  
+deque_palindrone.py = practicing double-ended queues (deques)  
