@@ -8,7 +8,7 @@ class Deque:
     self.elements.insert(0, item)
     
   def remove_first(self):
-    pass
+    return self.elements.pop()
     
   def remove_last(self):
     pass
@@ -34,5 +34,8 @@ deque.add_first(5)
 deque.add_first(20)
 
 deque.add_last(42)
+
+popped_front = deque.remove_first()
+print(popped_front)
 
 deque.display_deque()
