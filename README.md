@@ -88,3 +88,5 @@ threading.py = practicing concurrent programming (threading, sequential programm
 asyncio.py = practicing concurrent programming (threading, asynchronous programming)  
 multiprocessing.py = practicing concurrent programming (threading, multiprocessing)  
 concurrent.py = practicing concurrent programming (threading, sequential programming, asynchronous programming, multiprocessing)  
+
+deque.py = practicing double-ended queues (deques)  
