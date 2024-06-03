@@ -44,3 +44,14 @@ all_rows = curs.execute("SELECT * FROM titanic").fetchall()
 # PULL EVERY ROW FOR THOSE WHO SURVIVED
 all_survived = curs.execute('''SELECT * FROM titanic WHERE Survived = 1;''').fetchall()
 # print(all_survived)
+
+# PULL ALL AGE RECORDS
+age = curs.execute("SELECT Age FROM titanic;").fetchall()
+
+sum = 0
+
+# COUNTS THE NUMBER OF PEOPLE UNDER 18
+for num in age:
+  if num[0] < 18:
+    sum += 1 
+# print(sum)
