@@ -15,7 +15,7 @@ curs.execute('''CREATE TABLE new_table (
   username TEXT,
   pay_rate REAL)''')
 
-# INSERT ROW OF VALUES INTO NEW TABLE
+# INSERT ROW OF VALUES INTO TABLE
 curs.execute('''INSERT INTO new_table VALUES ('Bob Peterson', 34, 'bob1234', 40.00)''')
 
 # NEW ROWS OBJECT
@@ -55,3 +55,12 @@ for num in age:
   if num[0] < 18:
     sum += 1 
 # print(sum)
+
+# INSERT ROW OF VALUES INTO TABLE
+curs.execute('''INSERT INTO new_table VALUES ('Stephanie Bready', 37, 'stephB423', 30.00)''')
+
+# COMMIT THIS CHANGE
+con.commit()
+
+# CLOSE THE CONNECTION
+con.close()
