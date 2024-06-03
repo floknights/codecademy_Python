@@ -5,7 +5,7 @@ class Deque:
     self.elements.append(item)
     
   def add_last(self, item):
-    pass
+    self.elements.insert(0, item)
     
   def remove_first(self):
     pass
@@ -32,5 +32,7 @@ deque = Deque()
 
 deque.add_first(5)
 deque.add_first(20)
+
+deque.add_last(42)
 
 deque.display_deque()
