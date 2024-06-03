@@ -84,3 +84,4 @@ cities.py = practicing functional programming (lambda functions, mapping functio
 1k_sales.py = practicing functional programming (lambda functions, mapping functions, reduce functions, filter functions, named tuples, processing csv data)  
 titanic.py = practicing database operations (querying SQLite databases)  
 hotel_booking.py = practicing database operations (analysing SQLite databases)  
+threading.py = practicing concurrent programming (threads)  
