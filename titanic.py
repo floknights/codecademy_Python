@@ -59,6 +59,9 @@ for num in age:
 # INSERT ROW OF VALUES INTO TABLE
 curs.execute('''INSERT INTO new_table VALUES ('Stephanie Bready', 37, 'stephB423', 30.00)''')
 
+# PULL SPECIFIC ROW
+n_row = curs.execute('''SELECT * FROM new_table WHERE username = 'stephB423';''').fetchone()
+
 # COMMIT THIS CHANGE
 con.commit()
 
