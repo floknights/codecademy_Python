@@ -14,10 +14,12 @@ class Deque:
     return self.elements.pop(0)
     
   def is_empty(self):
-    pass
+    if len(self.elements) > 0:
+      return False
+    return True
     
   def size(self):
-    pass
+    return len(self.elements)
     
   def peek_first(self):
     return self.elements[-1]
@@ -40,5 +42,9 @@ print(popped_front)
 
 popped_rear = deque.remove_last()
 print(popped_rear)
+
+print(deque.is_empty())
+
+print(deque.size())
 
 deque.display_deque()
