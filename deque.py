@@ -11,7 +11,7 @@ class Deque:
     return self.elements.pop()
     
   def remove_last(self):
-    pass
+    return self.elements.pop(0)
     
   def is_empty(self):
     pass
@@ -37,5 +37,8 @@ deque.add_last(42)
 
 popped_front = deque.remove_first()
 print(popped_front)
+
+popped_rear = deque.remove_last()
+print(popped_rear)
 
 deque.display_deque()
