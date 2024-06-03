@@ -81,3 +81,4 @@ fruits.py = practicing functional programming (lambda functions, mapping functio
 inventory.py = practicing functional programming (lambda functions, mapping functions, reduce functions)  
 trees.py = practicing functional programming (lambda functions, mapping functions, reduce functions, filter functions, named tuples, tuples, importing csv files)  
 cities.py = practicing functional programming (lambda functions, mapping functions, reduce functions, filter functions, named tuples, tuples, processing JSON data)  
+1k_sales.py = practicing functional programming (lambda functions, mapping functions, reduce functions, filter functions, importing csv files)  
