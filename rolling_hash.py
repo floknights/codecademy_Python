@@ -31,11 +31,11 @@ def prime_rolling_hash(s, p, c):
 
 s = 'ABCD'
 p = prime_hash(s)
-prime_rolling_hash_values = {s:p}
+prime_rolling_hash_values = {s:p} # initialize dictionary with first substring and its prime hash
 
-for c in uppercase[4:]:
-  p = prime_rolling_hash(s, p, c)
-  s = s[1:] + c
-  prime_rolling_hash_values[s] = p
+for c in uppercase[4:]: # loop through next characters in line from 'E' to 'Z'
+  p = prime_rolling_hash(s, p, c) # calculate prime rolling hash of next substring
+  s = s[1:] + c # build the next substring by slicing through s and adding c
+  prime_rolling_hash_values[s] = p #u pdate the dictionary with the next substring and its prime hash
 
 print(prime_rolling_hash_values)
