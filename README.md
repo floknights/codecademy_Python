@@ -108,3 +108,5 @@ binary_indexed_tree = practicing algorithms & data structures (binary indexed tr
 b_trees = practicing algorithms & data structures (balanced binary search trees)  
 splay_trees = practicing algorithms & data structures (splay trees)  
 hamiltonian.py = practicing algorithms (recursion, graphs)  
+
+derivatives.py = practicing differential calculus (calculating derivatives)  
