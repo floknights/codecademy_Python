@@ -110,3 +110,4 @@ splay_trees = practicing algorithms & data structures (splay trees)
 hamiltonian.py = practicing algorithms (recursion, graphs)  
 
 derivatives.py = practicing differential calculus (calculating derivatives)  
+limit_definition.py = practicing differential calculus (limit definition of the derivative exploration)  
