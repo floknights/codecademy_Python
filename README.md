@@ -91,3 +91,4 @@ concurrent.py = practicing concurrent programming (threading, sequential program
 
 deque.py = practicing double-ended queues (deques)  
 deque_palindrone.py = practicing double-ended queues (deques)  
+naive_pattern_matching.py = practicing string search algorithms (naive pattern matching)  
