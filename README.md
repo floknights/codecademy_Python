@@ -95,3 +95,4 @@ naive_pattern_matching.py = practicing string search algorithms (naive pattern m
 hashing.py = practicing string search algorithms (hashing)  
 hashing_collision.py = practicing string search algorithms (hashing)  
 rolling_hash.py = practicing string search algorithms (hashing)  
+polynomial_hash.py = practicing string search algorithms (hashing)  
